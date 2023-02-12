@@ -2,13 +2,14 @@
   background-color: #ffd569;
   background-size: cover;
   height: 100vh;
-  padding: 10px;
+  padding: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 .Container {
   background-color: white;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +18,7 @@
 .head {
   color: black;
   font-family: 'Roboto';
-  font-size: 35px;
+  font-size: 45px;
 }
 span {
   color: #ffd569;
@@ -27,15 +28,28 @@ span {
 .fruitContainer {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
+  min-width: 150px;
+  max-width: 650px;
 }
 .image {
-  width: 200px;
+  width: 250px;
+}
+.mangoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .mangoButton {
   background-color: #007bff;
   color: white;
   cursor: pointer;
   outline: none;
+  border: 0px solid white;
   font-size: 12px;
+  width: 80px;
+  height: 28px;
+  border-radius: 5px;
+  margin: 10px;
 }
